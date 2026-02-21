@@ -308,7 +308,7 @@ keyring==25.7.0
 keyrings.google-artifactregistry-auth==1.1.2
 kiwisolver==1.4.9
 langchain==1.2.8
-langchain-core==1.2.9
+langchain-core==1.2.11
 langgraph==1.0.7
 langgraph-checkpoint==4.0.0
 langgraph-prebuilt==1.0.7
