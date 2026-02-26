@@ -707,7 +707,7 @@ webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
 websockets==15.0.1
-Werkzeug==3.1.5
+Werkzeug==3.1.6
 wheel==0.46.3
 widgetsnbextension==3.6.10
 wordcloud==1.9.6
