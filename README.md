@@ -4,18 +4,6 @@ Proyek **Natural Language Processing** untuk analisis sentimen ulasan aplikasi S
 
 ---
 
-## Apakah repo ini layak di GitHub?
-
-**Ya, layak.** Alasan singkat:
-
-- **Alur lengkap:** dari data mentah → labeling → preprocessing → EDA → training → evaluasi.
-- **Teknologi relevan:** Transformers (Hugging Face), Sastrawi, scikit-learn, PyTorch.
-- **Hasil terukur:** metrik (accuracy, F1) dan laporan klasifikasi tercatat di notebook.
-- **Reproducible:** dependency tercantum; notebook berisi output sehingga orang lain bisa mengikuti hasilnya.
-
-Saran: tambahkan file **`.gitignore`** (misalnya folder model `best_*`, `.ipynb_checkpoints`), dan di README sebutkan apakah file `shopee_mobile_reviews.csv` disertakan atau harus diunduh terpisah.
-
----
 
 ## Deskripsi singkat
 
@@ -36,17 +24,7 @@ Saran: tambahkan file **`.gitignore`** (misalnya folder model `best_*`, `.ipynb_
 └── best_combo*_70_30/           # Folder model tersimpan (jika sudah di-train)
 ```
 
----
 
-## Cara menjalankan
-
-1. **Lingkungan:** Python 3.10+ disarankan; notebook ditulis/dijalankan di Google Colab (Python 3.12).
-2. **Dependency utama:**  
-   `numpy`, `pandas`, `torch`, `transformers`, `datasets`, `scikit-learn`, `Sastrawi`, `wordcloud`, `matplotlib`, `seaborn`
-3. **Data:** Letakkan `shopee_mobile_reviews.csv` di folder yang sama dengan notebook (atau sesuaikan path di dalam notebook).
-4. **Jalankan:** Buka `[NLP]_MUHAMMAD_PHOHAN.ipynb` dan run semua cell secara berurutan (termasuk cell `pip install` di awal jika perlu).
-
----
 
 ## Ringkasan kode dan alur
 
@@ -65,7 +43,7 @@ Saran: tambahkan file **`.gitignore`** (misalnya folder model `best_*`, `.ipynb_
 
 ## Hasil analisis dan output utama
 
-### 1. Data setelah preprocessing
+### 1.  preprocessing
 
 - **Jumlah sampel:** 11.935 (dengan teks tidak kosong dan label sentimen).
 - **Distribusi sentimen (dari output notebook):**
@@ -106,7 +84,6 @@ Saran: tambahkan file **`.gitignore`** (misalnya folder model `best_*`, `.ipynb_
 - **TN:** 2123 | **FP:** 45  
 - **FN:** 100 | **TP:** 1301  
 
-Artinya: sedikit false positive untuk negatif, dan sedikit false negative untuk positif; performa seimbang antara kedua kelas.
 
 ---
 
@@ -119,12 +96,3 @@ Artinya: sedikit false positive untuk negatif, dan sedikit false negative untuk 
 
 ---
 
-## Lisensi & atribusi
-
-- Data ulasan: dari sumber yang Anda gunakan (sebutkan jika dari dataset publik).
-- InSet: [fajri91/InSet](https://github.com/fajri91/InSet).
-- Model: [indolem](https://huggingface.co/indolem) (IndoBERT, IndoBERTweet, DistilIndoBERT).
-
----
-
-*README ini mendeskripsikan kode dan hasil analisis dari notebook `[NLP]_MUHAMMAD_PHOHAN.ipynb` untuk keperluan portofolio/repo GitHub.*
