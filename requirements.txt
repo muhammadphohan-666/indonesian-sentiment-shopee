@@ -544,7 +544,7 @@ rasterstats==0.20.0
 ratelim==0.1.6
 referencing==0.37.0
 regex==2025.11.3
-requests==2.32.4
+requests==2.33.0
 requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
 requirements-parser==0.9.0
