@@ -32,7 +32,7 @@ astunparse==1.6.3
 atpublic==5.1
 attrs==25.4.0
 audioread==3.1.0
-Authlib==1.6.6
+Authlib==1.6.9
 autograd==1.8.0
 babel==2.18.0
 backcall==0.2.0
