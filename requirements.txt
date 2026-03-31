@@ -666,7 +666,7 @@ torchdata==0.11.0
 torchsummary==1.5.1
 torchtune==0.6.1
 torchvision==0.24.0+cu128
-tornado==6.5.1
+tornado==6.5.5
 tqdm==4.67.3
 traitlets==5.7.1
 traittypes==0.2.3
