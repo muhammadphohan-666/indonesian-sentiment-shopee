@@ -481,7 +481,7 @@ py-cpuinfo==9.0.0
 py4j==0.10.9.9
 pyarrow==18.1.0
 pyarrow-hotfix==0.7
-pyasn1==0.6.2
+pyasn1==0.6.3
 pyasn1_modules==0.4.2
 pycairo==1.29.0
 pycocotools==2.0.11
