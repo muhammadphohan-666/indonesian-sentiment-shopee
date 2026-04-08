@@ -670,7 +670,7 @@ tornado==6.5.1
 tqdm==4.67.3
 traitlets==5.7.1
 traittypes==0.2.3
-transformers==4.38.2
+transformers==5.0.0rc3
 treelite==4.4.1
 treescope==0.1.10
 triton==3.5.0
